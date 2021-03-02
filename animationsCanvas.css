@@ -1,0 +1,27 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.round {
+  margin: 50px;
+  width: 200px; height: 200px;
+  position: relative;
+}
+
+div.round input {
+  position: absolute;
+  top: 65px; left: 50px;
+  font-size: 60px;
+  text-align: center;
+  width: 100px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+div.round canvas {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; top: 0;
+}
